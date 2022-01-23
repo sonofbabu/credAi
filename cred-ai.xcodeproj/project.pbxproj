@@ -10,11 +10,13 @@
 		1CF7743F279D4FC9009B1A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7743E279D4FC9009B1A80 /* AppDelegate.swift */; };
 		1CF77441279D4FC9009B1A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF77440279D4FC9009B1A80 /* SceneDelegate.swift */; };
 		1CF77443279D4FC9009B1A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF77442279D4FC9009B1A80 /* ViewController.swift */; };
-		1CF77446279D4FC9009B1A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF77444279D4FC9009B1A80 /* Main.storyboard */; };
 		1CF77448279D4FCD009B1A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF77447279D4FCD009B1A80 /* Assets.xcassets */; };
 		1CF7744B279D4FCD009B1A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF77449279D4FCD009B1A80 /* LaunchScreen.storyboard */; };
 		1CF77456279D4FCD009B1A80 /* cred_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF77455279D4FCD009B1A80 /* cred_aiTests.swift */; };
 		1CF77461279D4FCD009B1A80 /* cred_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF77460279D4FCD009B1A80 /* cred_aiUITests.swift */; };
+		1CF7747C279D5443009B1A80 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7747B279D5443009B1A80 /* HomeViewController.swift */; };
+		1CF77483279D7D54009B1A80 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF77481279D7D54009B1A80 /* HomeTableViewCell.swift */; };
+		1CF77484279D7D54009B1A80 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CF77482279D7D54009B1A80 /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		1CF7743E279D4FC9009B1A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF77440279D4FC9009B1A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1CF77442279D4FC9009B1A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CF77445279D4FC9009B1A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CF77447279D4FCD009B1A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF7744A279D4FCD009B1A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CF7744C279D4FCD009B1A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		1CF7745C279D4FCD009B1A80 /* cred-aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cred-aiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF77460279D4FCD009B1A80 /* cred_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cred_aiUITests.swift; sourceTree = "<group>"; };
 		1CF77462279D4FCD009B1A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF7747B279D5443009B1A80 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1CF77481279D7D54009B1A80 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1CF77482279D7D54009B1A80 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,10 @@
 		1CF7743D279D4FC9009B1A80 /* cred-ai */ = {
 			isa = PBXGroup;
 			children = (
+				1CF7747A279D5416009B1A80 /* Main VC */,
 				1CF7743E279D4FC9009B1A80 /* AppDelegate.swift */,
 				1CF77440279D4FC9009B1A80 /* SceneDelegate.swift */,
 				1CF77442279D4FC9009B1A80 /* ViewController.swift */,
-				1CF77444279D4FC9009B1A80 /* Main.storyboard */,
 				1CF77447279D4FCD009B1A80 /* Assets.xcassets */,
 				1CF77449279D4FCD009B1A80 /* LaunchScreen.storyboard */,
 				1CF7744C279D4FCD009B1A80 /* Info.plist */,
@@ -126,6 +130,24 @@
 				1CF77462279D4FCD009B1A80 /* Info.plist */,
 			);
 			path = "cred-aiUITests";
+			sourceTree = "<group>";
+		};
+		1CF7747A279D5416009B1A80 /* Main VC */ = {
+			isa = PBXGroup;
+			children = (
+				1CF77480279D7D37009B1A80 /* Home tableview */,
+				1CF7747B279D5443009B1A80 /* HomeViewController.swift */,
+			);
+			path = "Main VC";
+			sourceTree = "<group>";
+		};
+		1CF77480279D7D37009B1A80 /* Home tableview */ = {
+			isa = PBXGroup;
+			children = (
+				1CF77481279D7D54009B1A80 /* HomeTableViewCell.swift */,
+				1CF77482279D7D54009B1A80 /* HomeTableViewCell.xib */,
+			);
+			path = "Home tableview";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF7744B279D4FCD009B1A80 /* LaunchScreen.storyboard in Resources */,
+				1CF77484279D7D54009B1A80 /* HomeTableViewCell.xib in Resources */,
 				1CF77448279D4FCD009B1A80 /* Assets.xcassets in Resources */,
-				1CF77446279D4FC9009B1A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CF77443279D4FC9009B1A80 /* ViewController.swift in Sources */,
+				1CF77483279D7D54009B1A80 /* HomeTableViewCell.swift in Sources */,
 				1CF7743F279D4FC9009B1A80 /* AppDelegate.swift in Sources */,
 				1CF77441279D4FC9009B1A80 /* SceneDelegate.swift in Sources */,
+				1CF7747C279D5443009B1A80 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CF77444279D4FC9009B1A80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CF77445279D4FC9009B1A80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CF77449279D4FCD009B1A80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
